@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A friend's pond · Frog Choir</title>
+<meta name="description" content="Someone made you a pond in Frog Choir. Can you sing it?">
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+         font: 18px/1.5 -apple-system, system-ui, sans-serif; color: #eef6f0;
+         background: linear-gradient(#1d4a52, #0f2a33); text-align: center; }
+  main { padding: 2rem; max-width: 26rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .5rem; }
+  a.button { display: inline-block; margin-top: 1.25rem; padding: .7rem 1.4rem;
+             border-radius: 999px; background: #7cc576; color: #0f2a33;
+             font-weight: 600; text-decoration: none; }
+  .small { font-size: .9rem; opacity: .75; margin-top: 1.5rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Someone made you a pond</h1>
+  <p>Can you sing it? You'll need Frog Choir for iPhone.</p>
+  <a class="button" id="open" href="frogchoir://p">Open in Frog Choir</a>
+  <p class="small">Frog Choir is coming soon to the App Store.</p>
+</main>
+<script>
+  document.getElementById('open').href = 'frogchoir://p' + location.hash;
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["4Z8CKPY35P.com.lukemorse.frogChoir"],
+        "components": [{ "/": "/p", "comment": "A shared pond; the code is in the fragment" }]
+      }
+    ]
+  }
+}
